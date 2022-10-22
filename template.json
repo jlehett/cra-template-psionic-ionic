@@ -3,9 +3,13 @@
         "scripts": {
             "start": "vite",
             "build": "vite build",
+            "serve": "npx vite preview",
             "test": "echo \"Add tests!\"",
+            "eject": "react-scripts eject",
             "storybook": "start-storybook -p 6006",
-            "build-storybook": "build-storybook"
+            "build-storybook": "build-storybook",
+            "ionic:build": "npm run build",
+            "ionic:serve": "npm run serve"
         },
         "dependencies": {
             "@capacitor/app": "4.1.0",
