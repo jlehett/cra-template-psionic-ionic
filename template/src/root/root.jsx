@@ -1,16 +1,12 @@
 import {
     IonApp,
-    IonIcon,
-    IonLabel,
+    IonPage,
     IonRouterOutlet,
-    IonTabBar,
-    IonTabButton,
-    IonTabs,
     setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
-import routes from './routes';
+import { Route } from 'react-router';
+import Home from '@views/home';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -34,7 +30,12 @@ const Root = ({}) => {
     return (
         <IonApp>
             <IonReactRouter>
-                {routes}
+                <IonPage>
+                    <h1>Example App</h1>
+                    <IonRouterOutlet>
+                        <Route index element={<Home/>}/>
+                    </IonRouterOutlet>
+                </IonPage>
             </IonReactRouter>
         </IonApp>
     );

@@ -1,7 +1,7 @@
 {
-    "name": "FinWin",
+    "name": "ExampleApp",
     "integrations": {
         "capacitor": {}
     },
-    "type": "react"
+    "type": "custom"
 }
