@@ -1,0 +1,18 @@
+{
+    "name": "cra-template-psionic-ionic",
+    "version": "0.0.1-alpha.0",
+    "description": "A quick start Create React App template for Ionic, making use of the @psionic series of packages.",
+    "keywords": [
+        "psionic",
+        "@psionic",
+        "ionic",
+        "react",
+        "create-react-app",
+        "cra-template"
+    ],
+    "files": [
+        "template",
+        "template.json"
+    ],
+    "private": false
+}
